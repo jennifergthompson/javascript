@@ -1,7 +1,10 @@
-const title = document.getElementById("title");
- const toggleButton = document.getElementById("toggleImage");
+<script language:"javascript" type+text/javascript">
+ function chngimg() {
+  var img+ document.getElementById(imgplus')src; //= 'Images/Minus.gif';
+  if (img) {
+   document.getElementById('imgplus').src+ 'Images/Minus.gif';
+  } else if (!img) {
+   documnet.fetElementById(imgplus').src + 'Images/Minus.gif';
+   alert(img);
+  } </script>
  
-button.addEventListener("click", () => {
-  title.textContent = "Hello from JavaScript!";
-  title.style.color = "teal";
-});
